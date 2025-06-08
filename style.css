@@ -14,6 +14,7 @@
     --snd-bg-color:#d5fdf9;
     --text-color:#000;
     --main-color:#007f73;
+    --secondMain-color:#000000;
 }
 
 html{
@@ -383,7 +384,7 @@ span{
         padding: 2rem 3%;
     }
     section{
-        padding:10 ren 3%;
+        padding:10rem 3%;
     }
     .portfolio{
         padding: 7rem;
@@ -415,10 +416,10 @@ span{
 
     .navbar a{
         display: block;
-        pad: 17px;
+        padding: 17px;
         font-size: 22px;
     }
-    .navbar .active{
+    .navbar.active{
         right: 0;
     }
     .home{
