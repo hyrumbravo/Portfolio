@@ -194,7 +194,7 @@ span{
 }
 
 
-.about-image img{
+.about-img img{
     width: 25vw;
     border-radius: 100%;
     box-shadow: 0 0 25px var(--main-color);
@@ -202,7 +202,7 @@ span{
     transition: 0.4s ease;
 }
 
-.about-image img:hover{
+.about-img img:hover{
     box-shadow: 0 0 25px var(--main-color),
                 0 0 35px var(--main-color),
                 0 0 45px var(--main-color);
@@ -434,11 +434,15 @@ span{
         order: 2;
         margin-left: 1rem ;
     }
+    .home img{
+        width: 30vw;
+        margin-top: 4rem;
+    }
     .about{
         flex-direction: column-reverse;
     }
     .about img{
-        width: 70vw;
+        width: 30vw;
         margin-top: 4rem;
     }
     .portfolio h2{
